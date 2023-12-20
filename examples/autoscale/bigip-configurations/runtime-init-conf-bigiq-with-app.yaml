@@ -95,13 +95,13 @@ extension_services:
             class: License
             hypervisor: azure
             licenseType: licensePool
-            licensePool: clpv2
-            bigIqHost: 192.168.1.4
-            bigIqUsername: azureuser
+            licensePool: bigip-pool-cat1-0423-1
+            bigIqHost: 10.6.131.4
+            bigIqUsername: bigipauto
             bigIqPassword: '{{{BIGIQ_PASSWORD}}}'
-            tenant: myTenant
-            skuKeyword1: F5-BIG-MSP-BT-1G
-            unitOfMeasure: hourly
+            tenant: Luxottica Group S.p.A.
+            skuKeyword1: F5-BIG-MSP-ABT-200M
+            unitOfMeasure: yearly
             reachable: false
             overwrite: false
           My_Ntp:
